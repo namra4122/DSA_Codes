@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.rookie_codes;
 
 public class basic_ops {
     static int search(int[] arr, int target) {

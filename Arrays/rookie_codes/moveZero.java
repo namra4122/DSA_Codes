@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.rookie_codes;
 
 public class moveZero {
     static int arr[] = { 1, 2, 3, 5, 4, 0, 0, 6 };

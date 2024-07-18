@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.rookie_codes;
 
 public class remove_dups {
     static int[] arr = { 1, 2, 3, 4, 4, 7, 7, 8 };
