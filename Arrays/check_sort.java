@@ -1,4 +1,4 @@
-package Arrays.rookie_codes;
+package Arrays;
 
 public class check_sort {
     static void check(int[] arr) {

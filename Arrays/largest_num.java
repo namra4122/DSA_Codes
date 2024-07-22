@@ -1,4 +1,4 @@
-package Arrays.rookie_codes;
+package Arrays;
 
 public class largest_num {
     static int maxVal(int[] arr) {

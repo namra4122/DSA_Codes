@@ -1,4 +1,4 @@
-package Arrays.rookie_codes;
+package Arrays;
 
 import java.util.*;
 

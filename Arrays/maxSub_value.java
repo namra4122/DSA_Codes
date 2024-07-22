@@ -1,4 +1,4 @@
-package Arrays.rookie_codes;
+package Arrays;
 
 public class maxSub_value {
     static int[] arr1 = { 2, 3, 10, 6, 4, 8, 1 };

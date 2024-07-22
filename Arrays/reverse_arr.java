@@ -1,4 +1,4 @@
-package Arrays.rookie_codes;
+package Arrays;
 
 public class reverse_arr {
     static int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
