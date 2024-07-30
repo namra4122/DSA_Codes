@@ -1,9 +1,6 @@
 package Sorting;
 
-/**
- * bubble
- */
-public class bubble {
+public class insertion {
     static int[] arr = { 5, 12, 2, 62, 6 };
 
     static void swap(int a, int b) {
@@ -14,11 +11,11 @@ public class bubble {
 
     static void sortArr(int[] arr) {
         int n = arr.length;
-        for (int i = 0; i < n - 1; i++) {
-            for (int j = 0; j < n - i - 1; j++) {
-                if (arr[j] > arr[j + 1]) {
-                    swap(j, j + 1);
-                }
+        for (int i = 0; i < n; i++) {
+            int j = i;
+            while (j > 0 && arr[j - 1] > arr[j]) {
+                swap(j - 1, j);
+                j--;
             }
         }
     }
