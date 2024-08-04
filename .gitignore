@@ -1,4 +1,6 @@
 # Compiled class file
 *.class
 
+#video
+*.mp4
 .DS_Store
