@@ -20,7 +20,7 @@ class Node {
     }
 }
 
-public class linkList {
+public class singlelinkList {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         // int n = scan.nextInt();
