@@ -1,7 +1,5 @@
 package LinkedList;
 
-import java.util.Scanner;
-
 class Node {
     int data;
     Node next;
@@ -22,13 +20,6 @@ class Node {
 
 public class singlelinkList {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        // int n = scan.nextInt();
-        // int arr[] = new int[n];
-
-        // for (int i = 0; i < n; i++) {
-        // arr[i] = scan.nextInt();
-        // }
 
         Node y = arr2ll(new int[] { 9, 8, 7, 6, 5, 4, 3 });
         // Length
@@ -70,7 +61,6 @@ public class singlelinkList {
         y = insertEle(y, 6, 7);
         System.out.println("AFTER ADDING ELE");
         print(y);
-        scan.close();
     }
 
     private static void print(Node head) {
@@ -151,16 +141,14 @@ public class singlelinkList {
 
         Node temp = head;
         Node prev = null;
-        int ct = -1;
+        int ct = 0;
 
-        while (temp != null) {
+        while (temp != null && ct != k) {
             ct++;
-            if (ct == k) {
-                prev.next = prev.next.next;
-            }
             prev = temp;
             temp = temp.next;
         }
+        prev.next = prev.next.next;
 
         return head;
     }

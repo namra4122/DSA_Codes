@@ -43,7 +43,7 @@ class valid_sudoku {
                 { '7', '.', '.', '.', '2', '.', '.', '.', '6' }, { '.', '6', '.', '.', '.', '.', '2', '8', '.' },
                 { '.', '.', '.', '4', '1', '9', '.', '.', '5' }, { '.', '.', '.', '.', '8', '.', '.', '7', '9' } };
 
-        // System.out.println(isValidSudoku(b1));
+        System.out.println(isValidSudoku(b1));
         System.out.println(isValidSudoku(b2));
     }
 }
